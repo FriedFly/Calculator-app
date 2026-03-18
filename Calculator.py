@@ -11,12 +11,14 @@ def divide(x, y):
     if x == 0:
         return "Cannot divide by zero"
     else:
-        return x * y
+        return x / y
 
 
 x = int(input("Enter the first number: "))
 y = int(input("Enter the second number: "))
 
+
+print("Simple Calculator\n")
 print("When your two numbers are added they equal: " + str(add(x, y)))
 print("When your two numbers are subtracted they equal: " + str(subtract(x, y)))
 print("When your two numbers are multiplied they equal: " + str(multiple(x, y)))
